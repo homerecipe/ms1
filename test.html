@@ -1,0 +1,35 @@
+
+<html>
+ <head>
+ <meta charset="utf-8">
+ <title>주문 단계 선택</title>
+ </head>
+
+<body>
+<center>
+ <form action="./submit.html" method="post">
+ <p><font size="4"><strong>단계 선택</strong></font><br>
+  <font size="3">
+  <input type='radio' name='step'
+ value='송장등록' /> 송장 등록<br>
+  <input type='radio' name='step'
+ value='주문발주' /> 주문 발주<font size="3"></p>
+
+ <p><font size="4"><strong>사이트 선택</strong></font><br>
+ <select name="sitemall">
+  <option value="">사이트선택</option>
+  <option value="cafe">카페24</option>
+  <option value="tmon">티켓몬스터</option>
+  <option value="wmp">위메프</option>
+  <option value="cp">쿠팡</option>
+  <option value="naver">스마트스토어</option>
+  <option value="11">11번가</option>
+  <option value="gm">g마켓</option>
+  <option value="ac">옥션</option>
+  <option value="kakao">카카오선물하기</option>
+ </select></p>
+ 
+ <input type="submit" value="확인"/>
+</form>
+</body>
+</html>
